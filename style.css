@@ -4,6 +4,7 @@
     box-sizing: border-box;
     /* Essential for consistent layout */
     font-family: 'Poppins', sans-serif;
+    /* overflow: hidden; */
     /* Using Poppins as primary font */
 }
 
@@ -611,6 +612,9 @@ p {
     .project-cards-container{
         flex-direction: column;
     }
+    .footer-container{
+        width: 25rem;
+    }
 
 }
 @media (max-width:520px) {
@@ -633,11 +637,13 @@ p {
         flex-direction: column;
         align-items: flex-start;
         padding-left: 5rem;
+        width: 25rem;
     }
     .experience-card{
         height: 20rem;
         
     }
+    
 
     
 }
