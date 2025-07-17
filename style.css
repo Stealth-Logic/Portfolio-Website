@@ -334,7 +334,7 @@ p {
 }
 
 .experience-card {
-    border: 2px solid aqua;
+    border: 2px solid gray;
     text-align: center;
     /* flex: 1; */
     padding: 1.5rem;
