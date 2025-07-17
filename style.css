@@ -336,9 +336,9 @@ p {
 .experience-card {
     border: 2px solid aqua;
     text-align: center;
-    flex: 1;
+    /* flex: 1; */
     padding: 1.5rem;
-    height: 17rem;
+    height: 18rem;
     width: 26rem;
     border-radius: 2rem;
 
@@ -593,6 +593,10 @@ p {
         font-size: 2rem;
         margin-bottom: 1.5rem;
     }
+    .experience-card{
+        height: 20rem;
+        
+    }
     .project-cards-container{
         flex-direction: column;
     }
@@ -618,6 +622,10 @@ p {
         flex-direction: column;
         align-items: flex-start;
         padding-left: 5rem;
+    }
+    .experience-card{
+        height: 20rem;
+        
     }
 
     
