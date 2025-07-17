@@ -56,6 +56,13 @@ a{
     gap: 25px;
     font-size: 1.5rem;
     /* font-weight: 600; */
+   
+}
+
+
+.item a:hover{
+    transition: all 1s ease;
+    border-bottom: 2px solid gray;
 }
 
 /* this is the stratiing of hamburger menu  */
@@ -128,7 +135,11 @@ a{
     border-radius: 2rem;
 
 }
-
+.btn:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s ease-in;
+}
 
 .img-container img {
     height: 20rem;
@@ -522,7 +533,7 @@ p {
 .Contact:hover {
     border-bottom: 2px solid gray;
     color: gray;
-    transition: 1s;
+    transition: .5s ease-in;
 }
 
 /* --- RESPONSIVENESS (Media Queries) --- */
